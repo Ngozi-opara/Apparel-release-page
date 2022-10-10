@@ -13,6 +13,7 @@ function keepBorder (event) {
     input.style.background = "white";
     if (input.value.match(validRegex) && input == "") {
         
+        location.reload();
     }
 
     else {

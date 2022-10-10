@@ -11,8 +11,8 @@ function keepBorder (event) {
 
     input.style.border = "2px solid #dd4c4cc5";
     input.style.background = "white";
-    if (input.value.match(validRegex) && input == "") {
-        
+    if (input.value.match(validRegex) && input != "") {
+
         location.reload();
     }
 
